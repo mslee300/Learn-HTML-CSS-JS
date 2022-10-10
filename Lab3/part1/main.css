@@ -1,0 +1,41 @@
+h1 {
+  color: red;
+  background-color: #000000;
+  font-size: 50px;
+  text-align: center;
+}
+h2{
+  color: rgb(255,255,255);
+  background-color: hsl(120,100%,25%);
+  font-weight: lighter;
+  text-decoration: underline;
+}
+h3{
+  background-color: yellow;
+  font-style: italic;
+  line-height: 1.35;
+  word-spacing: .75em;
+}
+p {
+  color: hsla(168, 100%, 47%, 1);
+  font-variant: small-caps;
+}
+ul{
+  background-color: #ffd1f9;
+  letter-spacing: 0.0625em;
+}
+ol{
+  color: lightgray;
+  background-color: hsl(0,0%,100%);
+  letter-spacing: 0.0625em;
+}
+body{
+  background-color: hsla(303, 85%, 34%, 1);
+}
+em{
+  text-transform: lowercase;
+}
+strong{
+  text-shadow: 1px 1px 1px #000, 
+               3px 3px 5px blue; 
+}

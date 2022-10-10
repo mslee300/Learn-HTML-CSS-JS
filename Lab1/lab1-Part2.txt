@@ -1,0 +1,11 @@
+1. Name: Minseok Lee Username: mslee300
+2. URLs:
+http://cs-people.bu.edu/mslee300/cs103/lab1/part2/css_zen_garden.html
+http://cs-people.bu.edu/mslee300/cs103/lab1/part2/index.html
+3. HTML tags:
+- emphasize tag
+- strong tag
+- Comment tag
+- horizontal line
+4. I did extra point I.
+

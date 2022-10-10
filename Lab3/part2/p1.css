@@ -1,0 +1,38 @@
+body {
+  background-color: #404040;
+}
+
+div {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  margin-right: 100px;
+  margin-left: 100px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-right: 50px;
+  padding-left: 50px;
+  background-color: white;
+  box-shadow: 5px 5px 10px gray;
+  border-radius: 50px;
+  transform: rotate(7deg);
+}
+
+header {
+  text-align: center;
+  transform: rotate(-7deg);
+}
+
+footer {
+  text-align: center;
+  transform: rotate(-7deg);
+}
+
+article {
+  border-top-width: 5px;
+  border-top-style: solid;
+  border-top-color: hotpink;
+  border-bottom-width: 5px;
+  border-bottom-style: solid;
+  border-bottom-color: hotpink;
+  transform: rotate(-7deg);
+}

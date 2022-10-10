@@ -1,0 +1,3 @@
+Minseok Lee	mslee300
+lab1_part1:
+http://cs-people.bu.edu/mslee300/cs103/lab1/part1/firstpage.html

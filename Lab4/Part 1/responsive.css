@@ -1,0 +1,22 @@
+
+li {
+	list-style-type: none;
+	display: inline;
+	padding-left: 5%;
+	padding-right: 5%;
+	font-size: calc(5px + 2vw);
+}
+
+ul {
+	text-align: center;
+	background-color: hsla(200, 4%, 20%, 1);
+	padding-left: 5%;
+	padding-right: 5%;
+	padding-top: 5%;
+	padding-bottom: 5%;
+}
+
+a {
+	color: white;
+	text-decoration: none;
+}

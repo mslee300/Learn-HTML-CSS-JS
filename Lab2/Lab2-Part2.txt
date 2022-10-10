@@ -1,0 +1,11 @@
+Minseok Lee		mslee300
+
+Problem1
+i. Creative Commons Attribution-ShareAlike 4.0 International License
+ii. CC BY-SA
+iii. <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
+
+Problem2
+URLs:
+http://cs-people.bu.edu/mslee300/cs103/lab2/part2/image.html
+http://cs-people.bu.edu/mslee300/cs103/lab2/part2/audiovisual.html
