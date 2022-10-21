@@ -1,0 +1,141 @@
+body {
+  font-family: "Quicksand", sans-serif; /* Try QuickSand font or use sans-serif  */
+}
+
+ul {
+  list-style-type: none;
+  display: inline;
+}
+
+ol {
+  list-style-type: none;
+  display: inline;
+}
+
+li {
+  display: inline-block;
+}
+
+#menu-items {
+	float: right;
+	display: inline-block;
+}
+
+nav {
+	padding: 5% 0;
+	display: inline;
+}
+
+#header-logo {
+	display: inline-block;
+	font-size: calc(5px + 2vw);
+	color: red;
+}
+
+header {
+	padding-left: 90px;
+	padding-right: 90px;
+	align-items: center;
+	height: 90px;
+}
+
+a.menu-property {
+	margin-left: 1vw;
+	font-size: 2vw;
+}
+
+input.search-units {
+  font-size: 2vw;
+  line-height: 150%;
+  width: 80%;
+}
+
+input#search-units {
+  font-size:2vw;
+  line-height: 150%;
+  width: 90%;
+}
+
+div#searchbar-wrapper {
+  width: 100%;
+  display: inline;
+}
+
+#go-button {
+  display: inline;
+  margin-left: 1%;
+  border: 1px solid red;
+  border-radius: 6px;
+  color: red;
+  padding: 1vw 5vw 1vw 5vw;
+  cursor: pointer;
+  font-size: 2vw;
+}
+
+#main-content {
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+p.title {
+  padding-top: 50px;
+  font-size: calc(5px + 2vw);
+  padding-bottom: 5%;
+}
+
+p#title {
+  font-size: calc(5px + 2vw);
+  padding-bottom: 5%;
+  font-size: calc(5px + 2vw);
+}
+
+div#type-container {
+  margin-bottom: 6%;
+  display: inline;
+}
+
+#ninja {
+  display: inline-block;
+  cursor: pointer;
+  border: 1px solid black;
+  border-radius: 5px;
+  margin-right: 5%;
+  text-align: center;
+}
+
+#chill {
+  display: inline-block;
+  cursor: pointer;
+  border: 1px solid black;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.preference-title {
+  font-size: calc(5px + 2vw);
+  text-align: center;
+  padding-top: 1vw;
+  padding-bottom: 1vw;
+}
+
+.button-image{
+	width: 15vw;
+	height: 15vw;
+	padding: 10px 10px 10px 10px;
+}
+
+footer {
+  height: 10%;
+  border-top: 1px solid rgba(0, 0, 0, .09);
+  text-align: center;
+  font-size: calc(5px + 2vw);
+}
+
+list-container {
+  list-style-type: none;
+  display: inline;
+}
+
+searchbar {
+  display: block;
+}
