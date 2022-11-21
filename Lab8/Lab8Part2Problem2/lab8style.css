@@ -1,0 +1,89 @@
+* {margin:0; 
+   padding:0; 
+   box-sizing: border-box;}
+
+body{font-family: Copperplate, "Copperplate Gothic Light",fantasy;}
+
+header {font-size: calc(8px + 2vw); 
+        text-align: center; 
+        background-color: #8D8741;
+	    border-bottom: dotted black; 
+        padding: 20px 0;
+}
+
+.row-body {float: left; 
+		   width: 100%;
+           background-color: #DAAD86;
+           border-bottom: dotted black;}
+
+.column-nav {float: left; 
+             width: 22%; 
+             background-color: #DAAD86; 
+             }
+
+ul#nav {text-align: center;}
+
+nav li {list-style-type: none; 
+		background-color: #659DBD; 
+        margin: 10px;
+        text-decoration: none;}
+
+nav a {display: inline-block;
+       padding: 15px 0; 
+	   text-decoration: none; 
+       color: black;
+       font-size: calc(8px + 1vw);}
+
+.column-body {float: left; 
+			  width: 78%; 
+              background-color: #FBEEC1;
+              padding: 2% 5% 2% 5%; 
+              border-left: solid black;}
+
+#environment {padding: 2% 0;
+              font-size: calc(5px + 1vw);}
+#environment h2 {padding: 4px 0;}
+
+#food {padding: 2% 0;
+       font-size: calc(5px + 1vw);}
+#food h2 {padding: 4px 0;}
+
+#funfacts {padding: 2% 0;
+           font-size: calc(5px + 1vw);}
+#funfacts h2 {padding: 4px 0;}
+#funfacts ul {padding-left: 4%;}
+#funfacts li {padding: 3px;}
+
+
+footer {clear: both; 
+		background-color: #BC986A; 
+		text-align: center; 
+		padding: 5px;
+        font-size: calc(5px + 1vw);}
+
+footer p {padding: 5px; color: black;}
+
+/*  The code above is given to the studnets.
+	The students have to add the code below to make a two column layout to 
+    a one column layout for smaller screens */
+
+@media screen and (max-width: 750px) {
+
+.row-body {float: none; 
+		   width: 100%;}
+
+.column-nav {float: none;
+             width: 100%;}
+
+.column-body {float: none; 
+			  width: 100%;}
+
+nav li {display: inline; padding:0 5%; background-color: #DAAD86;}
+
+.column-body { border-left:none;}
+
+ }
+
+@media screen and (max-width: 500px) {
+#food{display: none;}
+}
