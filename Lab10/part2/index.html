@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="style.css">
+<title> Calculator </title>
+<script>
+	function doAdd(){
+		let sum;
+		let input1;
+		let input2;
+		input1 = document.getElementById('box1').value;
+		console.log(input1);
+		input1 = Number(input1);
+		input2 = document.getElementById('box2').value;
+		console.log(input2);
+		input2 = Number(input2);
+		sum = input1 + input2;
+		console.log(sum);
+		document.getElementById('box3').innerHTML = sum;
+		
+		if (sum < 0){ 
+		document.getElementById("box3").style.color="red"; 
+		}
+		else {
+		document.getElementById("box3").style.color="#04AA6D";
+		}
+		
+	}
+	
+	function doSubtract(){
+		let difference;
+		let input1;
+		let input2;
+		input1 = document.getElementById('box1').value;
+		input1 = Number(input1);
+		input2 = document.getElementById('box2').value;
+		input2 = Number(input2);
+		difference = input1 - input2;
+		document.getElementById('box3').innerHTML = difference;
+		
+		if (difference < 0){ 
+		document.getElementById("box3").style.color="red"; 
+		}
+		else {
+		document.getElementById("box3").style.color="#04AA6D";
+		}
+		
+	}
+	
+	function doMultiply(){
+		let product;
+		let input1;
+		let input2;
+		input1 = document.getElementById('box1').value;
+		input1 = Number(input1);
+		input2 = document.getElementById('box2').value;
+		input2 = Number(input2);
+		product = input1 * input2;
+		document.getElementById('box3').innerHTML = product;
+		
+		if (product < 0){ 
+		document.getElementById("box3").style.color="red"; 
+		}
+		else {
+		document.getElementById("box3").style.color="#04AA6D";
+		}
+		
+	}
+	
+	function doDivide(){
+		let quotient;
+		let input1;
+		let input2;
+		input1 = document.getElementById('box1').value;
+		input1 = Number(input1);
+		input2 = document.getElementById('box2').value;
+		input2 = Number(input2);
+		quotient = input1 / input2;
+		document.getElementById('box3').innerHTML = quotient;
+		
+		if (quotient < 0){ 
+		document.getElementById("box3").style.color="red"; 
+		}
+		else {
+		document.getElementById("box3").style.color="#04AA6D";
+		}
+		
+	}
+	
+	function doPowers(){
+		let input1;
+		let input2;
+		let result = 1;
+		input1 = document.getElementById('box1').value;
+		input1 = Number(input1);
+		input2 = document.getElementById('box2').value;
+		input2 = Number(input2);
+		
+		for (let i = 0; i < input2; i++){
+			result *= input1
+		}
+	
+		powers = result
+		document.getElementById('box3').innerHTML = result;
+		
+		if (result < 0){ 
+		document.getElementById("box3").style.color="red"; 
+		}
+		else {
+		document.getElementById("box3").style.color="#04AA6D";
+		}
+		
+	}
+	
+	function doClear(){
+		document.getElementById('box1').value = '';
+		document.getElementById('box2').value = '';
+		document.getElementById('box3').innerHTML = '';
+	}
+	
+</script>
+</head>
+
+<body>
+
+<div id='container'>
+ <h1> Calc-o-Matic </h1>
+ <input type="text" id="box1">
+ <br>
+ <input type="text" id="box2">
+ <br>
+ <p id="box3"></p>
+ <button type="button" onclick="doAdd()"> + </button>
+ <button type="button" onclick="doSubtract()"> - </button>
+ <button type="button" onclick="doDivide()"> / </button>
+ <button type="button" onclick="doMultiply()"> * </button>
+ <button type="button" onclick="doPowers()"> ^ </button>
+ <button type="button" onclick="doClear()"> Clear </button>
+</div>
+
+</body>
+
+</html>

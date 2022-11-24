@@ -1,0 +1,11 @@
+Minseok Lee / mslee300
+
+Calculator URL:
+https://cs-people.bu.edu/mslee300/cs103/lab10/part2/index.html
+
+char.html URL:
+https://cs-people.bu.edu/mslee300/cs103/lab10/part2/char.html
+
+Default character encoding:
+"UTF-8"
+

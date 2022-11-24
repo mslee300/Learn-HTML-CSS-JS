@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<title> Calculator </title>
+<script>
+	function doAdd(){
+		let sum;
+		let input1;
+		let input2;
+		input1 = document.getElementById('box1').value;
+		console.log(input1);
+		input1 = Number(input1);
+		input2 = document.getElementById('box2').value;
+		console.log(input2);
+		input2 = Number(input2);
+		sum = input1 + input2;
+		console.log(sum);
+		document.getElementById('box3').value = sum;
+	}
+</script>
+</head>
+
+<body>
+<h1> Add Two Numbers </h1>
+
+<input type="text" id="box1">
+<button type="button" onclick="doAdd()"> + </button>
+<br>
+<input type="text" id="box2">
+<br>
+<input type="text" id="box3">
+
+</body>
+
+</html>
