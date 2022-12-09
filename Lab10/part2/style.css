@@ -4,40 +4,40 @@
 	top: 50%;
 	left: 50%;
   	transform: translate(-50%, -50%);
-    border: 3px solid #04AA6D;
-    padding: 10px;
+    border: 10px solid orange;
+    padding: 20px;
 }
 
 #container h1{
-	color: #04AA6D;
+	color: orange;
 	text-align: center;
-	font-family: Arial, Helvetica, sans-serif;
+	font-family: Helvetica, sans-serif;
 }
 
 #container p{
-	color: #04AA6D;
-	font-family: Arial, Helvetica, sans-serif;
-	font-size: 18px;
-	padding-left: 10px;
+	color: orange;
+	font-family: Helvetica, sans-serif;
+	font-size: 24px;
+	padding-left: 20px;
 }
 
 input {
 	width: 100%;
-  	padding: 12px 20px;
+  	padding: 14px 20px;
   	margin: 8px 0;
   	box-sizing: border-box;
-  	border: 2px solid #04AA6D;
+  	border: 2px solid orange;
   	border-radius: 4px;
-  	color: #04AA6D;
+  	color: orange;
   	font-size: 18px;
 }
 
 button {
-    background-color: #04AA6D;
+    background-color: orange;
     border: none;
-    color: white;
-    padding: 16px 32px;
+    color: yellow;
+    padding: 24px 38px;
     text-decoration: none;
-    margin: 4px 2px;
+    margin: 6px 4px;
     cursor: pointer;
 }
