@@ -1,4 +1,0 @@
-Minseok Lee / mslee300
-
-https://cs-people.bu.edu/mslee300/cs103/lab8/part1/index.html
-https://cs-people.bu.edu/mslee300/cs103/lab8/part1/exercise4.js
