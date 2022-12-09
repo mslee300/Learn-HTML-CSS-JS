@@ -1,6 +1,0 @@
-Minseok Lee, mslee300
-
-http://cs-people.bu.edu/mslee300/cs103/lab2/part1/film.html
-http://cs-people.bu.edu/mslee300/cs103/lab2/part1/photo.html
-http://cs-people.bu.edu/mslee300/cs103/lab2/part1/lab.mov
-http://cs-people.bu.edu/mslee300/cs103/lab2/part1/image.jpg
