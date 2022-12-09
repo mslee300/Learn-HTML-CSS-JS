@@ -1,8 +1,0 @@
-Minseok Lee / mslee300
-
-http://cs-people.bu.edu/mslee300/cs103/lab4/part2/symbol.html
-http://cs-people.bu.edu/mslee300/cs103/lab4/part2/index1.html
-http://cs-people.bu.edu/mslee300/cs103/lab4/part2/index2.html
-
-http://cs-people.bu.edu/mslee300/cs103/lab4/part2/web1.css
-http://cs-people.bu.edu/mslee300/cs103/lab4/part2/web2.css
